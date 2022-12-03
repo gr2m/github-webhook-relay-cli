@@ -4,6 +4,8 @@ See [#1](https://github.com/gr2m/github-webhook-relay-cli/pull/1)
 
 # `github-webhook-relay-cli`
 
+> CLI to receive webhooks from a GitHub repository via WebSocket and forward them to your localhost server
+
 > **Warning**  
 > Receiving webhooks via websockets is currently in [private beta](https://github.blog/changelog/2022-11-16-webhook-forwarding-in-the-github-cli-public-beta/)
 
