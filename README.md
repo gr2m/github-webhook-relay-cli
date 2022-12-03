@@ -1,4 +1,8 @@
-# github-webhook-relay-cli
+# ⚠️ This is work in progress. ⚠️
+
+See [#1](https://github.com/gr2m/github-webhook-relay-cli/pull/1)
+
+# `github-webhook-relay-cli`
 
 > **Warning**  
 > Receiving webhooks via websockets is currently in [private beta](https://github.blog/changelog/2022-11-16-webhook-forwarding-in-the-github-cli-public-beta/)
@@ -10,7 +14,7 @@ A Node.js CLI App that is using the [`github-webhook-relay`](https://github.com/
 Forward all `issues` and `pull_request` webhook events from the `monalisa/octocat` repository to `http://localhost:3000/api/github/webhooks`:
 
 ```sh
-npx github-webhook-relay-cli \
+npx github-webhook-relay \
   --token $GITHUB_TOKEN \
   --repo monalisa/hello-world \
   --events issues,pull_request \
