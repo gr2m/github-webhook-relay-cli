@@ -12,7 +12,7 @@ A Node.js CLI App that is using the [`github-webhook-relay`](https://github.com/
 Forward all `issues` and `pull_request` webhook events from the `monalisa/octocat` repository to `http://localhost:3000/api/github/webhooks`:
 
 ```sh
-npx github-webhook-relay \
+npx github-webhook-relay-cli \
   --token $GITHUB_TOKEN \
   --repo monalisa/hello-world \
   --events issues,pull_request \

@@ -4,7 +4,7 @@
   "description": "Receive webhooks from a GitHub repository via WebSocket",
   "type": "module",
   "bin": {
-    "github-webhook-relay": "bin/github-webhook-relay.js"
+    "github-webhook-relay-cli": "bin/github-webhook-relay.js"
   },
   "exports": "./index.js",
   "types": "./index.d.ts",
