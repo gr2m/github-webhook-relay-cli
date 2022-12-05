@@ -102,6 +102,10 @@ The secret used to sign the webhook payloads. Defaults to no secret.
   </tbody>
 </table>
 
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## See also
 
 - [`github-webhook-relay`](https://github.com/gr2m/github-webhook-relay/#readme) - The library this CLI is using
